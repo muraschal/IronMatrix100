@@ -1,6 +1,13 @@
-import Image from "next/image";
+"use client";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js').catch(() => void 0);
+    }
+  }, []);
+
   const cards = [
     { href: "/wochenstruktur", title: "Wochenstruktur", desc: "Tages- und Wochenrhythmus, Supps, Lifestyle" },
     { href: "/trainingsplan", title: "Trainingsplan", desc: "PPL, Progression, Core & Cardio" },

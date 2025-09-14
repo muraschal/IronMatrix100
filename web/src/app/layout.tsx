@@ -16,6 +16,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "IronMatrix100",
   description: "100 Tage – Wochenstruktur, Trainingsplan, Essensplan",
+  themeColor: "#0a0a0a",
+  manifest: "/manifest.webmanifest",
 };
 
 export default function RootLayout({
@@ -33,6 +35,7 @@ export default function RootLayout({
               <Link href="/wochenstruktur">Wochenstruktur</Link>
               <Link href="/trainingsplan">Trainingsplan</Link>
               <Link href="/essensplan">Essensplan</Link>
+              <a href="/api/ironmatrix.ics" download>ICS</a>
             </div>
           </nav>
         </header>
