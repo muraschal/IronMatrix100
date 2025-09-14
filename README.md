@@ -15,6 +15,13 @@
 - Trainingsplan (PPL): siehe `docs/Trainingsplan.md`
 - Essensplan (Warrior Diet + WE): siehe `docs/Essensplan.md`
 
+### Profil-Parameter (Personalisierung)
+
+- Alter/Körperdaten: 40 J, 180 cm, 80 kg
+- TDEE grob: ~2680 kcal/Tag (Mifflin St Jeor, aktiv 1.55)
+- Ziel Defizit: 2000–2200 kcal (Mo–Fr eine Mahlzeit), WE ~2200–2300 kcal (2 Mahlzeiten)
+- Makro-Zielkorridor: Protein 170–180 g, Fett 50–65 g, Carbs 180–230 g (Rest)
+
 ## Mission & Prinzipien
 
 - **Mission**: 100 Tage mit festem Rahmen, minimaler Komplexität, maximaler Konsistenz.

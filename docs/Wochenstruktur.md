@@ -49,13 +49,16 @@ Zeitzone: Europe/Berlin. Warrior Diet Mo–Fr = tagsüber 0 kcal (Wasser, Salz/E
 - Kreatin täglich (an trainingsfreien Tagen mit Dinner)
 - Blutwerte 1×/Jahr (D, Ferritin, B12) – Dosen ggf. anpassen
 
-## Lifestyle-Routinen
+## Lifestyle-Routinen (personalisiert)
 
-- Schlaf: 22:30 pre-sleep, 23:00 dunkel/kühl (16–19°C), 7–8 h; Blaulicht-Cut 21:30
+- Schlaf: 22:30 pre-sleep, 23:00 dunkel/kühl (16–19°C), 7–8 h; Blaulicht-Cut 21:30. Wenn < 6.5 h Schlaf: Training RPE-Limit 8.
 - Sauna/Kälte: Do 20:30 fix (3×12 min, 80–90°C; dazwischen kalt 1–2 min). Optional: Di 20:30, So 18:00
 - Haltung (täglich 5 min): Wall Angels 2×10, Chin Tucks 2×10, Scapular Retraction 2×12, Couch Stretch 2×45 s/Seite
 - Hautpflege: Morgen Cleanser + SPF 50; Abend Cleanser + Feuchtigkeit; Retinol 0.3% 2–3×/Woche
 - Social Energy: Sa/So 1–2 soziale Slots; Alkohol ideal 0 (sonst moderat)
+- Schritte: 8–10k/Tag; an Pull/Legs eher 8k, an Offdays bis 10k
+- Hydration: 30–35 ml/kg → 2.4–2.8 L/Tag + 0.5–1.0 L um Training
+- HR-Zonen (Schätzung, 40 J): HFmax ≈ 180; Z2 ~110–135 bpm (Konversation möglich)
 
 ## Beispielpläne
 

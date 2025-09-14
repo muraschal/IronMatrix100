@@ -27,16 +27,17 @@ Grundprinzip: Doppelprogression (erst Wiederholungen, dann Gewicht). Wenn obere 
 - Wadenheben stehend: 4×10–15 (Pause 60 s)
 - Core: Dragon Flag Progression 3×3–6 (negativ/exzentrisch wenn nötig)
 
-## Hinweise
-- Satzpausen Hauptlifts 2–3 min, Isos 60–90 s
-- Technik first. Kein Grinding > RPE 9
-- Deload light in W2 (siehe Roadmap) durch konservative Lastwahl
+## Hinweise (personalisiert, 40 J)
+- Satzpausen Hauptlifts 2–3 min, Isos 60–90 s; bei hoher Alltagsbelastung lieber obere Pause-Range
+- Technik first. Kein Grinding > RPE 9; bei Schlaf < 6.5 h: RPE-Limit 8
+- Deload light: Woche 4 optional (-20% Last, -1 Satz pro Übung), wenn Ermüdung steigt
+- Schulter-/Ellbogen-Prehab 5 min vor Push: Scap Pull-Ups 2×8, Band External Rotations 2×12
 
 ## Wochenprogression (Kurzlogik)
 - W1–2: Technik/Anpassung. Moderate Last, Volumen fix
 - W3–6: Doppelprogression Hauptlifts (Wdh → Gewicht). Isos +1 Wdh/Woche bis Obergrenze
-- W7–10: Erhalt Kraft, leicht höheres Cardio. Falls Erschöpfung: -1 Satz je Übung für 1 Woche
-- W11–14: Feinschliff, Fokus Tempo/Range of Motion. Last konservativ, Form perfekt
+- W7–10: Erhalt Kraft, Cardio +10–15 min (Z2). Bei Ermüdung: -1 Satz je Übung für 1 Woche
+- W11–14: Feinschliff, Fokus Tempo/ROM. Last konservativ, Form perfekt
 
 ## Core-Fokus (täglich 5–10 min)
 - Ab Wheel: Progression bis 3×12 aus Knie, dann exzentrisch aus Stand
