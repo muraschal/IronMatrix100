@@ -9,6 +9,12 @@
 
 ---
 
+## Übersicht
+
+- Wochenstruktur: siehe `docs/Wochenstruktur.md`
+- Trainingsplan (PPL): siehe `docs/Trainingsplan.md`
+- Essensplan (Warrior Diet + WE): siehe `docs/Essensplan.md`
+
 ## Mission & Prinzipien
 
 - **Mission**: 100 Tage mit festem Rahmen, minimaler Komplexität, maximaler Konsistenz.
