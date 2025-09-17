@@ -14,7 +14,7 @@ export default function EssensplanPage() {
     };
     supplements: {
       morning: Array<{ name: string; dose?: string; notes?: string; calories?: number }>;
-      daily?: Array<{ name: string; dose?: string; notes?: string }>;
+      daily?: Array<{ name: string; dose?: string; notes?: string; details?: string[] }>;
       dinner: Array<{ name: string; dose?: string; notes?: string }>;
     };
     stackSummary?: { morning?: string[]; daily?: string[]; dinner?: string[] };
@@ -69,14 +69,14 @@ export default function EssensplanPage() {
           <div>
             <div className="text-sm font-medium">Täglich</div>
             <ul className="mt-2 text-sm list-disc ml-5 space-y-1">
-              {(data.supplements.daily ?? []).map((s: any, idx: number) => (
+              {(data.supplements.daily ?? []).map((s, idx) => (
                 <li key={`t-${idx}`}>
                   <span className="font-medium">{s.name}</span>
                   {s.dose ? ` – ${s.dose}` : ""}
                   {s.notes ? ` · ${s.notes}` : ""}
                   {Array.isArray(s.details) && s.details.length > 0 && (
                     <ul className="mt-1 ml-4 list-disc space-y-1">
-                      {s.details.map((d: string, i: number) => (
+                      {s.details.map((d, i) => (
                         <li key={`td-${idx}-${i}`}>{d}</li>
                       ))}
                     </ul>

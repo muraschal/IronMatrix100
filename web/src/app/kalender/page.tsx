@@ -45,10 +45,6 @@ function dateKey(d: Date): string {
   return d.toISOString().slice(0, 10);
 }
 
-function doneKey(ev: EventInstance, d: Date): string {
-  return `${ev.id}@${dateKey(d)}`;
-}
-
 const COLOR_MAP: Record<string, string> = {
   indigo: "bg-indigo-500/15 text-indigo-700 dark:text-indigo-200 border-indigo-500/30",
   emerald: "bg-emerald-500/15 text-emerald-700 dark:text-emerald-200 border-emerald-500/30",

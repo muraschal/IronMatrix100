@@ -97,7 +97,7 @@ export async function GET(req: NextRequest) {
   const file = path.join(process.cwd(), "content/calendar.json");
   const raw = fs.readFileSync(file, "utf8");
   data = JSON.parse(raw);
-  events = data.events;
+  events = (data?.events ?? []) as SourceEvent[];
   const instances: Array<{
     id: string;
     title: string;
@@ -148,7 +148,7 @@ export async function GET(req: NextRequest) {
 
   return NextResponse.json({
     source: "json",
-    timezone: data.timezone,
+    timezone: data?.timezone ?? "Europe/Berlin",
     range: { start: formatISO(rangeStart), end: formatISO(rangeEnd) },
     events: instances,
   });
