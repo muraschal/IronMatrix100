@@ -169,10 +169,15 @@ export default function KalenderPage() {
                         return (
                           <div
                             key={ev.id}
-                            className={`text-xs rounded-lg px-2 py-1 border backdrop-blur bg-white/5 dark:bg-white/5 border-white/10 shadow-sm ${blockClass}`}
+                            className={`text-xs rounded-lg px-2 py-2 border backdrop-blur bg-white/5 dark:bg-white/5 border-white/10 shadow-sm ${blockClass} min-h-[5.5rem] flex flex-col justify-between`}
                           >
-                            <div className="font-medium">{ev.title}</div>
-                            <div className="opacity-80">{startTime}{ev.description ? ` · ${ev.description}` : ""}</div>
+                            <div>
+                              <div className="font-medium">{ev.title}</div>
+                              <div className="opacity-80">{startTime}{ev.short ? ` · ${ev.short}` : ""}</div>
+                            </div>
+                            {ev.details && (
+                              <div className="text-[11px] opacity-80 line-clamp-2">{ev.details}</div>
+                            )}
                           </div>
                         );
                       })}

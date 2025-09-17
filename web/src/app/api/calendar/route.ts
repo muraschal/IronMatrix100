@@ -15,6 +15,8 @@ type SourceEvent = {
   title: string;
   category: string;
   description?: string;
+  short?: string;
+  details?: string;
   startTime: string; // HH:mm
   endTime: string; // HH:mm
   recurrence: Recurrence;

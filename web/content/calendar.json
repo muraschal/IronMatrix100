@@ -10,6 +10,8 @@
       "title": "Dinner (Warrior Diet)",
       "category": "nutrition",
       "description": "Eine Mahlzeit. Protein hoch, Salz, Gemüse.",
+      "short": "Hauptmahlzeit",
+      "details": "Warmes Dinner, proteinbetont, viel Gemüse, Salz/Elektrolyte. Omega‑3 & Vitamin D3 hier einnehmen.",
       "startTime": "19:30",
       "endTime": "20:30",
       "recurrence": {
@@ -40,6 +42,8 @@
       "title": "Supplements – Morgens (kalorienfrei)",
       "category": "supplements",
       "description": "Zink 25 mg (5×/Woche) + Magnesium 200–400 mg – Autophagie bleibt aktiv",
+      "short": "Zink + Magnesium",
+      "details": "Zink: 25 mg, Mo–Fr nüchtern (bei Magenreiz zum Dinner). Magnesium Glycinat: 200–400 mg. 0 kcal, Fasten sicher.",
       "startTime": "07:30",
       "endTime": "07:40",
       "recurrence": {
@@ -54,6 +58,8 @@
       "title": "Warrior Tonic by Marcel",
       "category": "supplements",
       "description": "Kreatin 5 g (in Wasser); Apfelessig 1 EL (in 200 ml Wasser); Zitronensaft (Spritzer); Prise Himalaya‑Salz",
+      "short": "Kreatin + ACV Ritual",
+      "details": "Kreatin Monohydrat 5 g täglich (Konsistenz > Timing). Apfelessig 1 EL in 200 ml Wasser, Spritzer Zitrone, Prise Himalaya‑Salz.",
       "startTime": "12:00",
       "endTime": "12:05",
       "recurrence": {
@@ -68,6 +74,8 @@
       "title": "Supplements – Dinner",
       "category": "supplements",
       "description": "Vitamin D3 + Omega‑3 (EPA+DHA)",
+      "short": "D3 + Omega‑3",
+      "details": "Vitamin D3: 4.000 IE. Omega‑3: 2–3 g EPA+DHA. Fettlöslich → mit Dinner für optimale Aufnahme.",
       "startTime": "19:30",
       "endTime": "19:40",
       "recurrence": {
@@ -83,6 +91,8 @@
       "title": "Frühstück (Wochenende)",
       "category": "nutrition",
       "description": "Zweite Mahlzeit am Wochenende (erste des Tages).",
+      "short": "Breakfast",
+      "details": "Leichtes Frühstück an Sa/So: Protein + Carbs, moderates Fett.",
       "startTime": "10:30",
       "endTime": "11:00",
       "recurrence": {
@@ -98,6 +108,8 @@
       "title": "Dinner (Wochenende)",
       "category": "nutrition",
       "description": "Zweite Mahlzeit am Wochenende (Dinner).",
+      "short": "Dinner",
+      "details": "Zweite Mahlzeit: entspanntes Abendessen, Fokus ganze Lebensmittel, Proteine priorisieren.",
       "startTime": "19:00",
       "endTime": "20:00",
       "recurrence": {
