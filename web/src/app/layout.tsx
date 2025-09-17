@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Link from "next/link";
 import "./globals.css";
+import Navbar from "@/components/site/navbar";
+import Footer from "@/components/site/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,19 +28,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>        
-        <header className="sticky top-0 z-10 bg-background/80 backdrop-blur border-b border-neutral-200 dark:border-neutral-800">
-          <nav className="mx-auto max-w-screen-md px-4 py-3 flex items-center justify-between">
-            <Link href="/" className="font-semibold">IronMatrix100</Link>
-            <div className="flex gap-4 text-sm">
-              <Link href="/wochenstruktur">Wochenstruktur</Link>
-              <Link href="/trainingsplan">Trainingsplan</Link>
-              <Link href="/essensplan">Essensplan</Link>
-              <a href="/api/ironmatrix.ics" download>ICS</a>
-            </div>
-          </nav>
-        </header>
-        <main className="mx-auto max-w-screen-md px-4 py-6">{children}</main>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-app min-h-dvh flex flex-col`}>
+        <Navbar />
+        <main className="flex-1 mx-auto w-full max-w-screen-lg px-4 md:px-6 py-8">{children}</main>
+        <Footer />
       </body>
     </html>
   );

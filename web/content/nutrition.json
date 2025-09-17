@@ -1,0 +1,91 @@
+{
+  "version": 2,
+  "plan": {
+    "window": "2025-09-15 bis 2025-12-23",
+    "goals": ["sichtbare Abs", "Lean Gains"],
+    "trainingDays": ["DI", "FR", "SO"],
+    "notes": "Warrior Diet Mo–Fr, 1 Hauptmahlzeit"
+  },
+  "warriorDiet": {
+    "fasting": {
+      "start": "22:00",
+      "end": "18:30",
+      "notes": "Strikt kalorienfrei am Morgen. Wasser, Kaffee schwarz, Elektrolyte ohne kcal erlaubt."
+    },
+    "feeding": {
+      "window": "18:30-21:30",
+      "mainMeal": "Dinner",
+      "notes": "Protein hoch, Gemüse, Salz. Fett moderat; Omega-3 & D3 hier einnehmen."
+    }
+  },
+  "supplements": {
+    "morning": [
+      {
+        "name": "Zink",
+        "dose": "25 mg",
+        "notes": "Nur Mo–Fr, nüchtern. Bei Magenreiz: ins Dinner verschieben.",
+        "calories": 0
+      },
+      {
+        "name": "Magnesium (Glycinat)",
+        "dose": "200–400 mg",
+        "notes": "Kalorienfrei. Alternativ abends vor dem Schlafen.",
+        "calories": 0
+      }
+    ],
+    "daily": [
+      {
+        "name": "Kreatin Monohydrat",
+        "dose": "5 g täglich",
+        "notes": "Zeitpunkt flexibel: Post-Workout oder zum Dinner. Konsistenz wichtiger als Timing.",
+        "details": [
+          "Kein Pre-Workout-Booster, sondern Speichersupplement",
+          "Sättigung der Muskelspeicher ca. 3–4 Wochen",
+          "Best Practice: 5 g pro Tag, jeden Tag",
+          "Zeitpunkt egal – am einfachsten zum Dinner",
+          "Mit viel Wasser (≥ 300–500 ml) einnehmen",
+          "Optional mit Salz/Natrium, fördert die Aufnahme"
+        ]
+      }
+    ],
+    "dinner": [
+      {
+        "name": "Vitamin D3",
+        "dose": "4.000 IE",
+        "notes": "Zu fetthaltiger Mahlzeit."
+      },
+      {
+        "name": "Omega‑3 (EPA+DHA)",
+        "dose": "2–3 g EPA+DHA",
+        "notes": "Meist 2–4 Kapseln je nach Produkt. Kalorienhaltig → nur im Essensfenster."
+      }
+    ]
+  },
+  "tonics": {
+    "noon": {
+      "title": "Warrior Tonic by Marcel",
+      "time": "12:00",
+      "items": [
+        "Kreatin Monohydrat (5 g, in Wasser)",
+        "Apfelessig (1 EL, in 200 ml Wasser)",
+        "Zitronensaft / Zitronenkonzentrat (Spritzer)",
+        "Prise Himalaya‑Salz"
+      ]
+    }
+  },
+  "stackSummary": {
+    "morning": ["Magnesium", "Zink (Mo–Fr)", "Elektrolyte optional (0 kcal)"],
+    "daily": ["Kreatin 5 g (Zeitpunkt egal, aber täglich)"] ,
+    "dinner": ["Vitamin D3 4.000 IE", "Omega‑3 (EPA+DHA) 2–3 g"]
+  },
+  "meals": {
+    "dinnerIdeas": [
+      "Rinderhack‑Bowl mit Reis, Gemüse, Olivenöl",
+      "Lachsfilet, Kartoffeln, Brokkoli, Joghurt‑Dill‑Dip",
+      "Hähnchenbrust, Süßkartoffel, griechischer Salat",
+      "Eier‑Frittata mit Gemüse, Rucola, Parmesan"
+    ]
+  }
+}
+
+

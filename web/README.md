@@ -12,7 +12,7 @@ Seiten:
 - `/wochenstruktur`
 - `/trainingsplan`
 - `/essensplan`
-- `/api/ironmatrix.ics` Download ICS
+- `/kalender`
 
 ## Deploy (Vercel)
 - Importiere das Repo in Vercel
@@ -24,3 +24,6 @@ Seiten:
 ## Struktur
 - `src/app/*` Routen
 - `content/*` Markdown-Quellen (aus Repo/docs kopiert)
+
+Backlog:
+- ICS-Export wieder aktivieren (vormals `/api/ironmatrix`) wenn Priorität steigt

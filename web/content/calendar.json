@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "timezone": "Europe/Berlin",
+  "events": [
+    { "id": "gym-push-tue", "title": "Gym – Push", "category": "training", "description": "Push-Fokus.", "startTime": "18:30", "endTime": "19:45", "recurrence": { "freq": "WEEKLY", "byDay": ["TU"], "startDate": "2025-09-16", "until": "2025-12-23" }, "color": "red" },
+    { "id": "gym-legs-fri", "title": "Gym – Legs+Core", "category": "training", "description": "Beine + Core.", "startTime": "08:00", "endTime": "09:15", "recurrence": { "freq": "WEEKLY", "byDay": ["FR"], "startDate": "2025-09-19", "until": "2025-12-23" }, "color": "red" },
+    { "id": "gym-pull-sun", "title": "Gym – Pull", "category": "training", "description": "Pull-Fokus.", "startTime": "09:00", "endTime": "10:15", "recurrence": { "freq": "WEEKLY", "byDay": ["SU"], "startDate": "2025-09-21", "until": "2025-12-23" }, "color": "red" },
+    {
+      "id": "dinner-weekday",
+      "title": "Dinner (Warrior Diet)",
+      "category": "nutrition",
+      "description": "Eine Mahlzeit. Protein hoch, Salz, Gemüse.",
+      "startTime": "19:30",
+      "endTime": "20:30",
+      "recurrence": {
+        "freq": "WEEKLY",
+        "byDay": ["MO", "TU", "WE", "TH", "FR"],
+        "startDate": "2025-09-15",
+        "until": "2025-12-23"
+      },
+      "color": "emerald"
+    },
+    {
+      "id": "cardio-sat",
+      "title": "Outdoor Cardio Z2",
+      "category": "training",
+      "description": "Z2, 35–45 min (ab Woche 7: 45–60 min).",
+      "startTime": "10:00",
+      "endTime": "10:45",
+      "recurrence": {
+        "freq": "WEEKLY",
+        "byDay": ["SA"],
+        "startDate": "2025-09-20",
+        "until": "2025-12-23"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "supps-am",
+      "title": "Supplements – Morgens (kalorienfrei)",
+      "category": "supplements",
+      "description": "Zink 25 mg (5×/Woche) + Magnesium 200–400 mg – Autophagie bleibt aktiv",
+      "startTime": "07:30",
+      "endTime": "07:40",
+      "recurrence": {
+        "freq": "DAILY",
+        "startDate": "2025-09-15",
+        "until": "2025-12-23"
+      },
+      "color": "violet"
+    },
+    {
+      "id": "supps-noon",
+      "title": "Warrior Tonic by Marcel",
+      "category": "supplements",
+      "description": "Kreatin 5 g (in Wasser); Apfelessig 1 EL (in 200 ml Wasser); Zitronensaft (Spritzer); Prise Himalaya‑Salz",
+      "startTime": "12:00",
+      "endTime": "12:05",
+      "recurrence": {
+        "freq": "DAILY",
+        "startDate": "2025-09-15",
+        "until": "2025-12-23"
+      },
+      "color": "violet"
+    },
+    {
+      "id": "supps-dinner",
+      "title": "Supplements – Dinner",
+      "category": "supplements",
+      "description": "Vitamin D3 + Omega‑3 (EPA+DHA)",
+      "startTime": "19:30",
+      "endTime": "19:40",
+      "recurrence": {
+        "freq": "DAILY",
+        "startDate": "2025-09-15",
+        "until": "2025-12-23"
+      },
+      "color": "violet"
+    },
+    
+    {
+      "id": "breakfast-weekend",
+      "title": "Frühstück (Wochenende)",
+      "category": "nutrition",
+      "description": "Zweite Mahlzeit am Wochenende (erste des Tages).",
+      "startTime": "10:30",
+      "endTime": "11:00",
+      "recurrence": {
+        "freq": "WEEKLY",
+        "byDay": ["SA", "SU"],
+        "startDate": "2025-09-20",
+        "until": "2025-12-23"
+      },
+      "color": "cyan"
+    },
+    {
+      "id": "dinner-weekend",
+      "title": "Dinner (Wochenende)",
+      "category": "nutrition",
+      "description": "Zweite Mahlzeit am Wochenende (Dinner).",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "recurrence": {
+        "freq": "WEEKLY",
+        "byDay": ["SA", "SU"],
+        "startDate": "2025-09-20",
+        "until": "2025-12-23"
+      },
+      "color": "teal"
+    }
+  ]
+}
+
+
