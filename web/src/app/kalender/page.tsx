@@ -7,6 +7,8 @@ type EventInstance = {
   title: string;
   category: string;
   description?: string;
+  short?: string;
+  details?: string;
   start: string; // ISO
   end: string; // ISO
   color?: string;
@@ -41,9 +43,7 @@ function isSameDay(a: Date, b: Date): boolean {
   return a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth() && a.getDate() === b.getDate();
 }
 
-function dateKey(d: Date): string {
-  return d.toISOString().slice(0, 10);
-}
+// dateKey entfernt (nicht benötigt)
 
 const COLOR_MAP: Record<string, string> = {
   indigo: "bg-indigo-500/15 text-indigo-700 dark:text-indigo-200 border-indigo-500/30",
